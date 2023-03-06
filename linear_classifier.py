@@ -7,7 +7,7 @@ This code model is suitable for scenrios of binary clasification with only one o
 for examples: The effect of customer's age on acceptance of company's product.
 	       
 
-Note the follwing :
+Note the following :
 
 (1) The following code is a linear clasifier for predictive analysis and thus not sutiable for non-linear condition
 
@@ -269,7 +269,5 @@ data2 ="http://54.243.252.9/ce-5319-webroot/2-Exercises/ES-1/bugs-test.csv" #"bu
 #data = np.array(data)
 
 obj = LinearClassifier(training_data)
-
-
 
 obj.test(data2)
